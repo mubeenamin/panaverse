@@ -3,7 +3,7 @@ import Link from "next/link";
 import Button from "./button";
 export default function MainSection() {
   return (
-    <main className=" md:flex py-20 md:space-x-20">
+    <main className="space-y-8 md:space-y-0 md:flex py-20 md:space-x-20">
       <div className="">
         <div className="text-3xl mb-5 text-transparent: uppercase font-bold text-red-700 text-opacity-70">
           Learn State of the Art Technology
@@ -16,9 +16,7 @@ export default function MainSection() {
           aspects of modern technology, including 3D, VR, AR, AI, blockchain,
           cloud and edge computing, voice computing, ambient computing, and more
         </p>
-        <div className="py-6">
-        <Button><Link href={"https://www.google.com/"}>Get started</Link></Button>
-        </div>
+        
       </div>
       <div>
         <Image

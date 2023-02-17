@@ -14,7 +14,7 @@ export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
   return (
     <div>
-      <nav className="w-full bg-slate-600 bg-opacity-40 fixed top-0 left-0 right-0 z-10">
+      <nav className="w-full  bg-slate-600 md:bg-opacity-40 fixed top-0 left-0 right-0 z-10">
         <div className="justify-between px-4 mx-auto  md:items-center md:flex ">
           <div>
             <div className=" flex items-center justify-between py-3 md:py-5 md:block ">
@@ -54,7 +54,7 @@ export default function NavBar() {
               {mainMenu.map((link) => (
                 <li
                   key={link.name}
-                  className="pb-6 text-xl text-red-600 py-2 md:px-6 text-center border-b-2 md:border-b-0 hover:bg-purple-900 border-purple-900 md:hover:text-red-900 md:hover:bg-transparent"
+                  className="pb-6 text-xl text-red-600 py-2 md:px-6 text-center border-b-2 md:border-b-0  md:hover:text-red-900 md:hover:border-b md:hover:border-red-600"
                 >
                   <Link href={link.link}>{link.name}</Link>
                 </li>
