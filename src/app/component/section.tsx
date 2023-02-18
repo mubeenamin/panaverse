@@ -10,7 +10,7 @@ export default function MainSection() {
           LEARN STATE OF THE ART <div className="text-red-600">TECHNOLOGY</div>
         </div>
       </div>
-        <p className=" md:text-justify  md:text-2xl md:mt-10">
+        <p className=" md:text-justify  md:text-xl md:mt-10">
           The internet is without a doubt the most important technological
           development in human history. Web3, 3D Metaverse, AI, IoT, Cloud, and
           Edge technologies expand the internet as we know it by introducing
