@@ -9,7 +9,7 @@ export default function Cards() {
     { name: "Quarter IV", text: "Ambient Computing and IoT", link: "/" },
   ];
   return (
-    <main className="mt-16 space-y-8 ">
+    <main className="m-4 md:m-16 2xl:m-36 mt-16 space-y-8 ">
       <div className="md:flex md:justify-center md:text-5xl font-semibold text-3xl">
         <div className="inline-flex border-l-4 border-red-600 pl-4">
           OUR <div className="text-red-600 pl-2"> PROGRAMS</div>

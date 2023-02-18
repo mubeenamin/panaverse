@@ -3,7 +3,7 @@ import Link from "next/link";
 import Button from "./button";
 export default function MainSection() {
   return (
-    <main className="space-y-8 md:space-y-0 md:flex py-20 md:space-x-20">
+    <main className=" m-4 md:m-16 2xl:m-36 space-y-8 md:space-y-0 md:flex py-20 md:space-x-20">
       <div className="">
       <div className=" md:text-5xl mb-10 font-semibold text-3xl  ">
         <div className="border-l-4 border-red-600 pl-4">
