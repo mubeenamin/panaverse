@@ -8,8 +8,10 @@ export default function Stats() {
   ];
   return (
     <main>
-      <div className="md:text-center md:text-5xl mb-6 font-semibold text-4xl">
-        Our Students are expanding
+      <div className="md:flex md:justify-center md:text-5xl mb-10 font-semibold text-3xl  ">
+        <div className="border-l-4 border-red-600 pl-4">
+          OUR STUDENTS ARE <div className="text-red-600">EXPANDING!</div>
+        </div>
       </div>
       <div className="md:flex md:space-x-5 space-y-5 md:space-y-0">
         {statsItems.map((link) => (

@@ -50,7 +50,7 @@ export default function NavBar() {
               navbar ? "p-10 md:p-0 block" : "hidden"
             }`}
           >
-            <ul className="h-screen md:h-10 items-center justify-center md:flex ">
+            <ul className="h-screen md:h-10 items-center justify-center md:flex md:items-stretch">
               {mainMenu.map((link) => (
                 <li
                   key={link.name}
