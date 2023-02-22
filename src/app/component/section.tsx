@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import Typed from "react-typed";
+
 export default function MainSection() {
   return (
     <main className="w-full ">
