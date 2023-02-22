@@ -7,11 +7,10 @@ import Stats from "./component/stats";
 
 export default function Home() {
   return (
-    <div className="bg-scroll" >
+    <>
     <MainSection/>     
     <Stats/> 
     <Cards/>
-    
-    </div>
+    </>
   );
 }

@@ -1,3 +1,4 @@
+import { Avatar } from "flowbite-react";
 import Image from "next/image";
 
 export default function Footer() {
@@ -19,9 +20,9 @@ export default function Footer() {
     { name: "Twitter", link: "/twitter.svg" },
   ];
   return (
-    <main className=" bg-black ">
-      <div className=" py-20 mt-8 pl-4 pr-4 md:flex md:space-x-12 2xl:pl-36 md:p-16">
-        <div className="md:w-1/2">
+    <main className=" bg-black w-full ">
+      <div className=" py-20 pl-4 pr-4 sm:pl-4 sm:pr-4 sm:w-full md:flex md:space-x-12 md:max-w-[1240px] md:mx-auto">
+        <div className="md:basis-1/2">
           <div className="flex py-4 border-l-4 border-red-600 pl-4">
             <Image
               src={"/logo01.png"}
@@ -41,7 +42,7 @@ export default function Footer() {
             platforms like Facebook, Shopify, etc
           </div>
         </div>
-        <div className="group mt-4 pl-4 pr-4">
+        <div className="group mt-4 pl-4 pr-4 md:basis-1/6">
           <span className="text-xl text-white font-semibold group-hover:border-l-2 group-hover:border-red-600 pl-2">
             Company
           </span>
@@ -54,7 +55,7 @@ export default function Footer() {
             </div>
           ))}
         </div>
-        <div className="group mt-4 pl-4 pr-4">
+        <div className="group mt-4 pl-4 pr-4 md:basis-1/6">
           <span className="text-xl text-white font-semibold group-hover:border-l-2 group-hover:border-red-600 pl-2">
             Support
           </span>
@@ -67,11 +68,11 @@ export default function Footer() {
             </div>
           ))}
         </div>
-        <div className="group mt-4 pl-4 pr-4">
+        <div className="group mt-4 pl-4 pr-4 md:basis-1/6">
           <span className="text-xl text-white font-semibold group-hover:border-l-2 group-hover:border-red-600 pl-2">
             Follow us
           </span>
-          <div className="2xl:flex">
+          <div className="flex md:flex-col 2xl:flex">
             {footerIcon.map((link) => (
               <div
                 className="text-slate-400 mt-4 pl-2 hover:text-white cursor-pointer"
@@ -83,7 +84,11 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="text-white font-semibold text-center bg-slate-500 p-2"> Developed and Designed by Mubeen Ameen</div>
+      <div className="flex text-white font-semibold justify-center bg-slate-500 p-2"> Developed and Designed by Mubeen Ameen 
+      <div>
+        <Image src={"/icon.svg"} width={30} height={30} alt="avatar" className="ml-5 rounded-full "/>
+      </div>
+      </div>
     </main>
   );
 }

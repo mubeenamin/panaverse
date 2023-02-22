@@ -7,62 +7,60 @@ import Button from "./button";
 export default function NavBar() {
   let mainMenu = [
     { name: "Home", link: "/" },
-    { name: "Course", link: "/" },
+    { name: "Course", link: "/courses" },
     { name: "About us", link: "/" },
     { name: "Contact", link: "/" },
   ];
   const [navbar, setNavbar] = useState(false);
+  const handleNav = () => {
+    setNavbar(!navbar);
+  };
   return (
-    <div>
-      <nav className="w-full  bg-black md:bg-opacity-100 fixed top-0 left-0 right-0 z-10">
-        <div className="justify-between px-4 mx-auto  md:items-center md:flex ">
-          <div>
-            <div className=" flex items-center justify-between py-3 md:py-5 md:block ">
-              <Image src={"/logo01.png"} height={"50"} width="50" alt="logo" />
-              <div className="md:hidden">
-                <button
-                  className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:broder"
-                  onClick={() => setNavbar(!navbar)}
-                >
-                  {navbar ? (
-                    <Image
-                      src={"/redclose.svg"}
-                      width="30"
-                      height={"30"}
-                      alt="logo"
-                    />
-                  ) : (
-                    <Image
-                      src={"/hamburger-red.svg"}
-                      width="30"
-                      height={"30"}
-                      alt="logo"
-                      className="focus:border-none active:border-none"
-                    />
-                  )}
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <div
-            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0  ${
-              navbar ? "p-10 md:p-0 block" : "hidden"
-            }`}
-          >
-            <ul className="h-screen md:h-10 items-center justify-center md:flex md:items-stretch">
-              {mainMenu.map((link) => (
-                <li
-                  key={link.name}
-                  className="pb-6 text-xl text-white py-2 md:px-6 text-center border-b-2 md:border-b-0  md:hover:text-red-600 md:hover:border-b md:hover:border-red-600"
-                >
-                  <Link href={link.link}>{link.name}</Link>
-                </li>
-              ))}
-            </ul>
-          </div>
+    <div className="bg-black">
+      <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white">
+        <div className="flex">
+          <Image src={"/logo01.png"} height={50} width={50} alt="footer-logo" />
+          <div className="text-white text-xl flex items-end ">Panavers Dao</div>
         </div>
-      </nav>
+
+        <ul className="hidden md:flex">
+          {mainMenu.map((link) => (
+            <li key={link.name} className="p-4 hover:border-b-2 hover:border-red-600 cursor-pointer">
+             <Link href={link.link}> {link.name}</Link>
+            </li>
+          ))}
+        </ul>
+        <div onClick={handleNav} className="block md:hidden">
+          {navbar ? (
+            <Image src={"/redclose.svg"} width="30" height={"30"} alt="logo" />
+          ) : (
+            <Image
+              src={"/hamburger-red.svg"}
+              width="30"
+              height={"30"}
+              alt="logo"
+              className="focus:border-none active:border-none"
+            />
+          )}
+        </div>
+        <ul
+          className={
+            navbar
+              ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500"
+              : "ease-in-out duration-500 fixed left-[-100%]"
+          }
+        >
+          <div className="flex pt-6">
+          <Image src={"/logo01.png"} height={50} width={50} alt="footer-logo" />
+          <div className="text-white text-xl flex items-end ">Panavers Dao</div>
+        </div>
+          {mainMenu.map((link) => (
+            <li key={link.name} className="p-4 border-b-2 border-gray-500">
+              <Link href={link.link}> {link.name}</Link>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 }
