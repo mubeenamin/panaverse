@@ -1,8 +1,8 @@
 import Stats from "../component/stats";
 
 export default function Course() {
-  return (<main>
-    <div className="relative ">
+  return (<main className="w-full ">
+    <div className="h-screen ">
       
     </div>
   </main>);
