@@ -11,13 +11,7 @@ export default function MainSection() {
           <div className="border-l-4 border-red-600 pl-4">
             LEARN STATE OF THE ART{" "}
             <div>
-            <Typed
-              strings={["TECHNOLOGY"]}
-              typeSpeed={120}
-              backSpeed={120}
-              loop
-              className="text-red-600"
-            />
+            <h1 className="uppercase text-red-600">Technology</h1>
             </div>
           </div>
         </div>
