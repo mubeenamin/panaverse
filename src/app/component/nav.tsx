@@ -16,7 +16,7 @@ export default function NavBar() {
     setNavbar(!navbar);
   };
   return (
-    <div className="bg-black">
+    <div className="bg-black relative w-full">
       <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white">
         <div className="flex">
           <Image src={"/logo01.png"} height={50} width={50} alt="footer-logo" />

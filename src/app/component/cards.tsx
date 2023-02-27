@@ -3,13 +3,13 @@ import Link from "next/link";
 
 export default function Cards() {
   let cardItems = [
-    { name: "Quarter I", text: "Web 3 & Metaverse", link: "/" },
-    { name: "Quarter II", text: "Artificial Intelligence", link: "/" },
-    { name: "Quarter III", text: "Cloud-Native Computing", link: "/" },
-    { name: "Quarter IV", text: "Ambient Computing and IoT", link: "/" },
+    { name: "Quarter I", text: "Web 3 & Metaverse", link: "/quarter1" },
+    { name: "Quarter II", text: "Artificial Intelligence", link: "/quarter2" },
+    { name: "Quarter III", text: "Cloud-Native Computing", link: "/quarter3" },
+    { name: "Quarter IV", text: "Ambient Computing and IoT", link: "/quarter4" },
   ];
   return (
-    <main className="w-full ">
+    <main className="w-full relative">
       <div className="m-4 md:max-w-[1240px] md:mx-auto py-16 space-y-8">
       <div className="md:flex md:justify-center md:text-5xl font-semibold text-3xl">
         <div className="inline-flex border-l-4 border-red-600 pl-4">

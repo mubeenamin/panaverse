@@ -15,8 +15,10 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body>
+      <body className="bg-gradient-to-r from-purple-600 to-blue-600">
+      {/* <Image src={"/bg001.jpg"} width={"3840"} height={"3840"} alt="bg" className="fixed h-full"></Image> */}
         <NavBar />
+       
         {children}  
         <Footer />
       </body>

@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function MainSection() {
   return (
     <main className="w-full ">
-      <div className="m-4 grid md:grid-cols-2 space-y-8 md:justify-between md:items-center md:max-w-[1240px] md:mx-auto md:space-y-0 md:py-24 md:space-x-14 ">
+      <div className="m-4 grid md:grid-cols-2 space-y-8 md:justify-between md:items-center md:max-w-[1240px] md:mx-auto md:space-y-0 md:py-20 md:space-x-14 ">
       <div>
         <div className=" md:text-5xl mb-10 font-semibold text-3xl  ">
           <div className="border-l-4 border-red-600 pl-4">

@@ -7,7 +7,7 @@ export default function Stats() {
     { name: "Cities", text: "5", link: "/map.svg" },
   ];
   return (
-    <main className="w-full ">
+    <main className="w-full bg-white">
       <div className="m-4 md:max-w-[1240px] md:mx-auto rounded-lg py-16">
       <div className="md:flex md:justify-center md:text-5xl mb-10 font-semibold text-3xl  ">
         <div className="border-l-4 border-red-600 pl-4">
