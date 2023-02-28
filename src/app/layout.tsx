@@ -14,7 +14,7 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body className="bg-gradient-to-r from-purple-600 to-blue-600">
+      <body className="bg-gradient-to-b from-black to-red-600">
         <NavBar />
         {children}  
         <Footer />
