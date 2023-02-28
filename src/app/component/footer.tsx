@@ -20,7 +20,7 @@ export default function Footer() {
     { name: "Twitter", link: "/twitter.svg" },
   ];
   return (
-    <main className=" bg-black w-full relative">
+    <main className=" bg-black w-full">
       <div className=" py-20 pl-4 pr-4 sm:pl-4 sm:pr-4 sm:w-full md:flex md:space-x-12 md:max-w-[1240px] md:mx-auto">
         <div className="md:basis-1/2">
           <div className="flex py-4 border-l-4 border-red-600 pl-4">

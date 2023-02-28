@@ -1,7 +1,6 @@
 import "./globals.css";
 import NavBar from "./component/nav";
 import Footer from "./component/footer";
-import Image from "next/image";
 
 export default function RootLayout({
   children,
@@ -16,9 +15,7 @@ export default function RootLayout({
       */}
       <head />
       <body className="bg-gradient-to-r from-purple-600 to-blue-600">
-      {/* <Image src={"/bg001.jpg"} width={"3840"} height={"3840"} alt="bg" className="fixed h-full"></Image> */}
         <NavBar />
-       
         {children}  
         <Footer />
       </body>

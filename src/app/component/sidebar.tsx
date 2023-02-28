@@ -11,7 +11,7 @@ export default function SideBar() {
   return (
     <main>
       
-        <div className="hidden px-4 md:block md:border-r-4 md:shadow-black  md:py-6 md:space-y-6 md:max-h-fit ">
+        <div className="hidden px-4 md:block md:shadow-black  md:py-6 md:space-y-6">
             
           {sideBarItems.map((links) => (
             <div
