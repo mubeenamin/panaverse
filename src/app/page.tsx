@@ -6,7 +6,7 @@ import Stats from "./component/stats";
 
 export default function Home() {
   return (
-    <div className="space-y-0">
+    <div className="shadow-2xl">
     <MainSection/>     
     <Stats/> 
     </div>
