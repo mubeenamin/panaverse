@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 
 export default function Footer() {
@@ -15,9 +14,9 @@ export default function Footer() {
     { name: "Privacy Policy", link: "/" },
   ];
   let footerIcon = [
-    { name: "FaceBook", link: "/facebook.svg" },
-    { name: "LinkedIn", link: "/linkedin.svg" },
-    { name: "Twitter", link: "/twitter.svg" },
+    { name: "FaceBook", icon: "/facebook.svg" },
+    { name: "LinkedIn", icon: "/linkedin.svg" },
+    { name: "Twitter", icon: "/twitter.svg" },
   ];
   return (
     <main className=" bg-black w-full">
@@ -78,16 +77,24 @@ export default function Footer() {
                 className="text-slate-400 mt-4 pl-2 hover:text-white cursor-pointer"
                 key={link.name}
               >
-                <Image src={link.link} height={40} width={40} alt="icons" />
+                <Image src={link.icon} height={40} width={40} alt="icons" />
               </div>
             ))}
           </div>
         </div>
       </div>
-      <div className="flex text-white font-semibold justify-center bg-slate-500 p-2"> Developed and Designed by Mubeen Ameen 
-      <div>
-        <Image src={"/icon.svg"} width={30} height={30} alt="avatar" className="ml-5 rounded-full "/>
-      </div>
+      <div className="flex text-white font-semibold justify-center bg-slate-500 p-2">
+        {" "}
+        Developed and Designed by Mubeen Ameen
+        <div>
+          <Image
+            src={"/icon.svg"}
+            width={30}
+            height={30}
+            alt="avatar"
+            className="ml-5 rounded-full "
+          />
+        </div>
       </div>
     </main>
   );

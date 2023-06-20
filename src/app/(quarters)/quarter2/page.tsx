@@ -25,23 +25,19 @@ export default function Quarter2() {
         <ul className="list-decimal space-y-4 pl-4">
           <li>
             <h1 className="text-xl font-bold indent-10">
-            Next.js 13 Web Development
+              Next.js 13 Web Development
             </h1>
             <div>
               <Link
-                href={
-                  "https://beta.nextjs.org/docs"
-                }
+                href={"https://beta.nextjs.org/docs"}
                 className="text-red-600 hover:underline pl-10"
               >
-               Next 13 Official Documentation
+                Next 13 Official Documentation
               </Link>
             </div>
             <div>
               <Link
-                href={
-                  "https://beta.reactjs.org/learn"
-                }
+                href={"https://beta.reactjs.org/learn"}
                 className="text-red-600 hover:underline pl-10"
               >
                 Latest Learn React Official Website
@@ -49,18 +45,16 @@ export default function Quarter2() {
             </div>
             <div>
               <Link
-                href={
-                  "https://github.com/panaverse/learn-nextjs"
-                }
+                href={"https://github.com/panaverse/learn-nextjs"}
                 className="text-red-600 hover:underline pl-10"
               >
-               Learn Next.js 13 Learning Repo
+                Learn Next.js 13 Learning Repo
               </Link>
             </div>
           </li>
           <li>
             <h1 className="text-xl font-bold indent-10">
-            Next.js 13 using Chakra UI (Remote Zoom Class){" "}
+              Next.js 13 using Chakra UI (Remote Zoom Class){" "}
             </h1>
             <div>
               <Link
@@ -69,112 +63,134 @@ export default function Quarter2() {
                 }
                 className="text-red-600 hover:underline pl-10"
               >
-                CSS Flexbox Explained – Complete Guide to Flexible Containers and Flex Items
+                CSS Flexbox Explained – Complete Guide to Flexible Containers
+                and Flex Items
               </Link>
             </div>
             <div>
               <Link
-                href={
-                  "https://docs.google.com/presentation/d/1FSbr9aJwO0-fmZHqWy_eHO2N_jwJLmQCy4cG8rd4ctw/edit?usp=sharing"
-                }
+                href={"https://chakra-ui.com/getting-started"}
                 className="text-red-600 hover:underline pl-10"
               >
-                Web 3.0 User Guide
-              </Link>
-            </div>
-            <p className="indent-10">
-              Complete Web 3 Assignments included in the Web 3 User Guide
-              Virtual and
-            </p>
-            <div>
-              <Link
-                href={
-                  "https://docs.google.com/presentation/d/1ADk87hQ0Etr2PfmN9XH7TQ0CHl6XSP_7JWNUbzPdDNc/edit?usp=sharing"
-                }
-                className="text-red-600 hover:underline pl-10"
-              >
-                Augmented Metaverse User Guide
+                Chakra UI Docs
               </Link>
             </div>
           </li>
           <li>
             <h1 className="text-xl font-bold indent-10">
-              Fundamentals of Typescript TypeScript Presentation{" "}
+              UI/UX Design with Figma, TailwindCSS, and Chakra UI (Remote Zoom
+              Class){" "}
             </h1>
-            <div>
+            <div className=" pl-10">
               <Link
                 href={
-                  "https://docs.google.com/presentation/d/1-7Kb3laJjJ68mOTF9v0fHImk5vTol0CeE43Sg8hoUXQ/edit?usp=sharing"
+                  "https://www.amazon.com/Designing-Prototyping-Interfaces-Figma-interactive/dp/180056418X/ref=sr_1_1_sspa"
                 }
-                className="text-red-600 hover:underline pl-10"
+                className="text-red-600 hover:underline"
               >
-                TypeScript Presentation
+                Designing and Prototyping Interfaces with Figma: Learn essential
+                UX/UI design principles by creating interactive prototypes for
+                mobile, tablet, and desktop by Fabio Staiano
               </Link>
             </div>
             <div>
               <Link
-                href={
-                  "https://github.com/panaverse/typescript-node-projects/blob/main/getting-started-exercises.md"
-                }
+                href={"https://www.figma.com/community/file/768809027799962739"}
                 className="text-red-600 hover:underline pl-10"
               >
-                Getting Started Exercises with TypeScript and Node.js
+                Figma Design Kit for TailwindCSS
+              </Link>
+            </div>
+            <div>
+              <Link
+                href={"https://www.figma.com/community/file/971408767069651759"}
+                className="text-red-600 hover:underline pl-10"
+              >
+                Chakra UI Figma Kit
               </Link>
             </div>
           </li>
           <li>
             <h1 className="text-xl font-bold indent-10">
-              Object-Oriented Programming with TypeScript{" "}
+              API Routes with Next.js (Remote Zoom Class){" "}
             </h1>
             <div>
               <Link
-                href={
-                  " https://www.amazon.com/Learning-TypeScript-Development-Type-Safe-JavaScript/dp/1098110331/ref=sr_1_1"
-                }
+                href={"https://nextjs.org/docs/api-routes/introduction"}
                 className="text-red-600 hover:underline pl-10"
               >
-                Chapters 1-11 of Learning TypeScript: Enhance Your Web
-                Development Skills Using Type-Safe JavaScript
-              </Link>
-            </div>
-            <div>
-              <Link
-                href={" https://github.com/panaverse/learn-typescript"}
-                className="text-red-600 hover:underline pl-10"
-              >
-                Learning Repository
-              </Link>
-            </div>
-            <div>
-              <Link
-                href={" https://www.learningtypescript.com/"}
-                className="text-red-600 hover:underline pl-10"
-              >
-                In Class Companion projects and articles for Learning TypeScript
-              </Link>
-            </div>
-            <div>
-              <Link
-                href={" https://github.com/panaverse/typescript-node-projects"}
-                className="text-red-600 hover:underline pl-10"
-              >
-                Homework Project
+                API Routes
               </Link>
             </div>
           </li>
           <li>
             <h1 className="text-xl font-bold indent-10">
-              Fundamentals of Typescript TypeScript Presentation{" "}
+              APIs with Next.js and tRPC (Remote Zoom Class){" "}
             </h1>
             <div>
               <Link
-                href={"https://profy.dev/article/react-typescript"}
+                href={
+                  "https://codevoweb.com/build-a-trpc-crud-api-example-with-next-js/"
+                }
                 className="text-red-600 hover:underline pl-10"
               >
-                TypeScript for React Minimal TypeScript Crash Course For React
-                With Interactive Code Exercises
+                Build a tRPC CRUD API Example with Next.js
               </Link>
             </div>
+            <div>
+              <Link
+                href={
+                  "https://brockherion.dev/blog/posts/stop-building-rest-apis-for-your-next-apps/"
+                }
+                className="text-red-600 hover:underline pl-10"
+              >
+                Stop building REST APIs for your Next.js apps, use tRPC instead
+              </Link>
+            </div>
+          </li>
+          <li>
+            <h1 className="text-xl font-bold indent-10">SQL and Prisma </h1>
+            <div>
+              <Link
+                href={
+                  "https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases-typescript-postgres"
+                }
+                className="text-red-600 hover:underline pl-10"
+              >
+                Start from scratch with relational databases
+              </Link>
+            </div>
+            <div>
+              <Link
+                href={"https://www.youtube.com/watch?v=5hzZtqCNQKk"}
+                className="text-red-600 hover:underline pl-10"
+              >
+                SQL For Beginners Video Tutorial
+              </Link>
+            </div>
+            <div>
+              <Link
+                href={"https://www.freecodecamp.org/news/dbms-and-sql-basics/"}
+                className="text-red-600 hover:underline pl-10"
+              >
+                Database Management Systems and SQL – Tutorial for Beginners
+              </Link>
+            </div>
+            <li>
+              <h1 className="text-xl font-bold indent-10">
+                Next.js 13 using TailwindCSS (Remote Zoom Class){" "}
+              </h1>
+              <div>
+                <Link
+                  href={
+                    "https://pragprog.com/titles/tailwind2/modern-css-with-tailwind-second-edition/"
+                  }
+                  className="text-red-600 hover:underline pl-10"
+                >
+                  Modern CSS with Tailwind, Second Edition by Noel Rappin
+                </Link>
+              </div>
+            </li>
           </li>
         </ul>
       </div>

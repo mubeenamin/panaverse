@@ -7,9 +7,9 @@ export default function Stats() {
     { name: "Cities", text: "5", link: "/map.svg" },
   ];
   return (
-    <main className="">
+    <main>
       <div className="px-4 md:max-w-[1240px] md:mx-auto py-16  bg-white">
-      <div className="md:flex md:justify-center md:text-5xl mb-10 font-semibold text-3xl  ">
+      <div className="md:flex md:justify-center md:text-4xl mb-10 font-semibold text-3xl  ">
         <div className="border-l-4 border-red-600 pl-4">
           OUR STUDENTS ARE <div className="text-red-600">EXPANDING!</div>
         </div>
